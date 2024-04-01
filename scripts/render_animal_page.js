@@ -150,6 +150,7 @@ function SwitchAnimal(ANIMAL, array)
             ANIMAL_PIC.src = '/assets/animal4.jpg'
             CONTENT.innerHTML = array['MILY']
             break;
+        
     }
 }
 

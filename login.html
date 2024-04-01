@@ -10,17 +10,33 @@
     <main>
         <form action="/index.html" method="post">
             <div class="container">
+                <div class="info-login">
+
+                    <div class="user-area">
+
+                        <div class="login">
+                            <p>Email</p>
+                            <input type="email" name="email" value="adm@adm.com">
+                        </div>
     
-                <div class="login">
-                    <label for="login">Email de usuário</label>
-                    <input type="email" name="login" id="login">
+                        <div class="password">
+                            <p>Password</p>
+                            <input type="password" name="password" value="Ponha sua senha">
+                        </div>
+
+                    </div>
+                    
+                    <div class="check-box">
+                        <input type="checkbox" name="" id="check">
+                        <label for="check">Estou ciente que nao serei <span>hackeado</span></label>
+                    </div>
+
+                    <div class="btn-group">
+                        <input type="submit" value="login">
+                        <input type="submit" value="cadastrar">
+                    </div>
                 </div>
-                <div class="password">
-                    <label for="password">Password de usuário</label>
-                    <input type="password" name="password" id="password">
-                </div>
-    
-                <input type="submit" value="Login" id="sub">
+
             </div>
         </form>
     </main>
