@@ -12,7 +12,7 @@
     --cor8: rgb(255, 255, 255);
     
     --bg-color: rgb(247, 247, 247);
-    --bd-color-primary: green;
+    --bd-color-primary: rgb(201, 201, 201);
     --con-width: 99.5vw;
 }
 
@@ -69,6 +69,8 @@ body p
     text-align: center;
     justify-content: space-between;
     background-color: aliceblue;
+    transition: all ease-in 0.3s;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border: 1px solid var(--bd-color-primary);
     border-radius: 8px;
     padding: 15px;
@@ -97,6 +99,7 @@ body p
     padding: 10px;
     height: 5vh;
     background-color: var(--cor4);
+    
 }
 
 .navbar-top ul li 
@@ -110,8 +113,8 @@ body p
     text-decoration: none;
     color: var(--cor0);
     font-size: 1.1em;
-    transition: ease-in 0.4s;
     margin: auto 5px;
+    transition: all ease-in 0.3s;
 }
 
 .navbar-top ul li a:hover
@@ -129,6 +132,12 @@ agora se for um id  a gente usa a # exemplo abaixo !!!
     color:var(--cor0);
     letter-spacing: 4px;
     font-weight: 600;
+    
+}
+
+.brand-name ul li a
+{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .basic-animal .rating-animal

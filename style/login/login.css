@@ -1,0 +1,69 @@
+:root
+{
+    --card-w: 60vh;
+    --card-h: 60vh;
+
+    --f-color: white;
+    
+    --bd-c: white;  /* border color */
+    --br: 8px;  /* border radius */
+}
+
+.border
+{
+    border-radius: var(--br) var(--br);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form, main
+{
+    display: flex;
+}
+
+main
+{
+
+    margin-top: 10vw;
+    justify-content: center;
+}
+
+.check-box
+{
+    margin: 10px auto;
+}
+
+.login-desc
+{
+    background-image: url('/assets/Default_a_galaxy_full_of_star_in_all_stars_1.jpg');
+    background-size: 100vw;
+    background-position: center;
+    overflow: hidden;
+
+    width: var(--card-w);
+    height: var(--card-h);
+
+    color: var(--f-color);
+}
+
+.desc
+{
+    display: flex;
+    justify-content: center;
+}
+
+.desc-img img
+{
+    border-radius: 80%;
+    border:1px solid var(--bd-c);
+    width: 37%;
+    position: relative;
+    bottom: -70px;
+    left: 31%;
+}
+
+.login-area
+{
+    width: var(--card-w);
+    height: var(--card-h);
+    background-color: rgb(46, 46, 145);
+}
