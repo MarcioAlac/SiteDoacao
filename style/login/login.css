@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root
 {
     --card-w: 60vh;
@@ -7,6 +10,18 @@
     
     --bd-c: white;  /* border color */
     --br: 8px;  /* border radius */
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+
 }
 
 .border
@@ -35,10 +50,10 @@ main
 .login-desc
 {
     background-image: url('/assets/Default_a_galaxy_full_of_star_in_all_stars_1.jpg');
-    background-size: 100vw;
-    background-position: center;
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
     overflow: hidden;
-
     width: var(--card-w);
     height: var(--card-h);
 
@@ -47,18 +62,43 @@ main
 
 .desc
 {
-    display: flex;
     justify-content: center;
+    display: flex;
+    padding: 15px;
 }
 
 .desc-img img
 {
-    border-radius: 80%;
     border:1px solid var(--bd-c);
-    width: 37%;
+    box-shadow: rgb(68, 103, 139) 0px 20px 30px -10px;
+    border-radius: 80%;
     position: relative;
-    bottom: -70px;
+    bottom: -25px;
+    width: 37%;
     left: 31%;
+
+}
+
+.login-desc .movivation
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 85%;
+}
+
+.login-desc .movivation p
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 12%;
+    transform: translateX(10%);
+    border: 1px solid rgba(196, 40, 170, 0.349);
+    background-image: linear-gradient(to left, rgba(128, 0, 128, 0.425), rgba(0, 0, 255, 0.384));
+    border-radius: var(--br);
+    padding: 10px;
 }
 
 .login-area
