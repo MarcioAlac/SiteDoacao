@@ -1,0 +1,69 @@
+main
+{
+   max-width: 60vw;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   background-color: antiquewhite;
+}
+
+img
+{
+    width: 100%;
+}
+
+.content
+{
+    background: rgb(224, 224, 224);
+    border-radius: 8px;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 10px;
+    box-shadow: -10px 10px 5px 0px rgba(39, 39, 39, 0.75);
+}
+
+.animal-info
+{
+    display: flexbox;
+}
+
+.animal-info h2
+{
+    text-align: center;
+}
+
+.animal-info span
+{
+    margin-left: 85%;
+}
+
+.animal-contact h3
+{
+    text-align: center;
+}
+
+.animal-contact img
+{
+    width: 32px;
+}
+
+.animal-tel , .animal-local
+{
+    display: flex;
+    align-items: center;
+}
+
+.animal-local img
+{
+    width: 28px;
+    height: calc(28px + 10px);
+}
+
+@media screen and (max-width: 617px)
+{
+    .navbar-top ul li:not(:first-child)
+    {
+        display: none;
+    }
+}

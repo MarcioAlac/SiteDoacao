@@ -1,0 +1,41 @@
+.navbar-top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 5vh;
+    background-color: var(--cor4);
+}
+
+.navbar-top ul li 
+{
+    display: inline-flex;
+    list-style: none;
+}
+
+.navbar-top ul li a
+{
+    text-decoration: none;
+    color: var(--cor0);
+    font-size: 1.1em;
+    transition: ease-in 0.4s;
+    margin: auto 5px;
+}
+
+.navbar-top ul li a:hover
+{
+    font-size: 1.4em; 
+    letter-spacing: 2px;
+    color: red;
+}
+/* 
+agora se for um id  a gente usa a # exemplo abaixo !!! 
+*/
+
+.brand-name
+{
+    color:var(--cor0);
+    letter-spacing: 4px;
+    font-weight: 600;
+}
