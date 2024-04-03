@@ -198,6 +198,18 @@ main
 
 .btn:hover
 {
-    background-color: blue;
     color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+.info-title
+{
+    text-shadow: -6px 12px 8px rgba(0, 0, 0, 1);
+    color: rgb(99, 185, 255);
+    text-decoration: overline;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 900;
+    top: -10%;
 }
