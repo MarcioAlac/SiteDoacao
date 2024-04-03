@@ -115,7 +115,9 @@ main
 
 .login-area
 {
-    background-color: var(--bc-al);
+    /* background-color: var(--bc-al); */
+    background-image: url('/assets/Default_clounds_realistic_0.jpg');
+    background-position-y: 60%;
     height: var(--card-h);
     color: var(--f-color);
     width: var(--card-w);
@@ -146,6 +148,10 @@ main
     border-bottom: 5px solid rgb(234, 20, 205);
 }
 
+.user-area  input:hover
+{
+    font-size: 98%;
+}
 .user-area  p
 {
     transform: translateX(12px);
